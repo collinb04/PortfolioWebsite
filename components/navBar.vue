@@ -92,14 +92,6 @@ const route = useRoute();
 const router = useRouter();
 const isHome = computed(() => route.path === '/');
 
-const goToPage = () => {
-    if (!user.value) {
-        router.push('/')
-    } else {
-        router.push('/')
-    }
-}
-
 const navItems = [
     { text: 'About', id: 'about' },
     { text: 'Skills', id: 'skills' },
@@ -108,38 +100,33 @@ const navItems = [
 ]
 
 const scrollToSection = async (id) => {
-    if (isHome.value) {
-        // Already on homepage → scroll directly
-        const el = document.getElementById(id)
-        if (el) {
-            window.scrollTo({
-                top: el.offsetTop - 40,
-                behavior: 'smooth',
-            })
-        }
-    } else {
-        // Not on homepage → navigate, then scroll
-        await router.push('/#' + id)
-        // Wait for DOM to update (short delay)
-        setTimeout(() => {
-            const el = document.getElementById(id)
-            if (el) {
-                window.scrollTo({
-                    top: el.offsetTop - 40,
-                    behavior: 'smooth',
-                })
-            }
-        }, 300)
+  if (id === 'top') {
+    window.scrollTo({ top: 4, behavior: 'smooth' })
+    return
+  }
+
+  if (isHome.value) {
+    const el = document.getElementById(id)
+    if (el) {
+      const offset = el.getBoundingClientRect().top + window.scrollY - 80 // navbar offset
+      window.scrollTo({ top: offset, behavior: 'smooth' })
     }
-    mobileOpen.value = false
+  } else {
+    await router.push('/')
+    setTimeout(() => {
+      const el = document.getElementById(id)
+      if (el) {
+        const offset = el.getBoundingClientRect().top + window.scrollY - 80
+        window.scrollTo({ top: offset, behavior: 'smooth' })
+      }
+    }, 300)
+  }
+
+  mobileOpen.value = false
 }
 
+
 const handleNavClick = (id) => {
-    if (id === '#') {
-        router.push('/account')
-        mobileOpen.value = false
-        return
-    }
     scrollToSection(id)
 }
 
