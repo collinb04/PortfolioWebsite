@@ -199,6 +199,247 @@
       </div>
     </div>
 
+    <div id="projects" class="py-20">
+  <!-- Header -->
+  <div class="text-center mb-16">
+    <h1 class="text-6xl font-bold bg-gradient-to-r from-blue-200 via-blue-400 to-blue-600 bg-clip-text text-transparent mb-6">
+      Projects
+    </h1>
+    <div class="w-32 h-1 bg-gradient-to-r from-blue-500 to-blue-200 mx-auto rounded-full"></div>
+    <p class="text-blue-200 text-lg mt-6 max-w-2xl mx-auto">
+      A collection of projects that showcase my journey as a developer
+    </p>
+  </div>
+
+  <!-- Projects Grid -->
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <!-- Project Card 1 -->
+      <div class="group backdrop-blur-sm bg-white/5 border border-white/10 rounded-2xl overflow-hidden hover:bg-white/10 hover:scale-105 transition-all duration-300 hover:shadow-2xl">
+        <!-- Project Image -->
+        <div class="relative overflow-hidden h-48 bg-gradient-to-br from-blue-500/20 to-purple-500/20">
+          <div class="w-full h-full flex items-center justify-center">
+            <img src="/public/EfWeb.png" alt="Project 1" class="w-82 text-blue-300" />
+          </div>
+          <!-- Overlay on hover -->
+          <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        </div>
+        
+        <!-- Project Content -->
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-white mb-2 group-hover:text-blue-300 transition-colors">
+            Full-Stack Web App
+          </h3>
+          <p class="text-blue-200 text-sm mb-4 leading-relaxed">
+            A comprehensive web application built with Vue.js and Python backend, featuring user authentication/storage, and real-time data processing via tensorflow model.
+          </p>
+          
+          <!-- Tech Stack Tags -->
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="px-3 py-1 bg-blue-500/20 border border-blue-300/30 rounded-full text-blue-200 text-xs font-medium">Vue.js</span>
+            <span class="px-3 py-1 bg-green-700/20 border border-green-500/30 rounded-full text-green-300 text-xs font-medium">Nuxt 3</span>
+            <span class="px-3 py-1 bg-green-500/20 border border-green-300/30 rounded-full text-green-200 text-xs font-medium">Python</span>
+            <span class="px-3 py-1 bg-purple-500/20 border border-purple-300/30 rounded-full text-purple-200 text-xs font-medium">Firebase</span>
+          </div>
+          
+          <!-- Action Buttons -->
+          <div class="flex gap-3">
+            <button id="playButton" class="flex-1 px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-medium rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all duration-300 text-sm">
+              Live Demo
+            </button>
+            <button class="px-4 py-2 border border-blue-300/30 text-blue-300 font-medium rounded-lg hover:bg-blue-500/20 transition-all duration-300 text-sm">
+              Code
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class="group backdrop-blur-sm bg-white/5 border border-white/10 rounded-2xl overflow-hidden hover:bg-white/10 hover:scale-105 transition-all duration-300 hover:shadow-2xl">
+        <div class="relative overflow-hidden h-48 bg-gradient-to-br from-green-500/20 to-blue-500/20">
+          <div class="w-full h-full flex items-center justify-center">
+            <svg class="w-16 h-16 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+            </svg>
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        </div>
+        
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-white mb-2 group-hover:text-green-300 transition-colors">
+            Flutter Mobile App
+          </h3>
+          <p class="text-blue-200 text-sm mb-4 leading-relaxed">
+            Flutter app designed for offline use and seamless user experience, with features such as usb watching and image extraction. The Python backend/TF model deploy real-time Oak Wilt detection results.
+          </p>
+          
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="px-3 py-1 bg-blue-500/20 border border-blue-300/30 rounded-full text-blue-200 text-xs font-medium">Flutter</span>
+            <span class="px-3 py-1 bg-blue-500/20 border border-blue-300/30 rounded-full text-blue-200 text-xs font-medium">Dart</span>
+            <span class="px-3 py-1 bg-green-500/20 border border-green-300/30 rounded-full text-green-200 text-xs font-medium">Python</span>
+          </div>
+          
+          <div class="flex gap-3">
+            <button class="flex-1 px-4 py-2 bg-gradient-to-r from-green-500 to-green-600 text-white font-medium rounded-lg hover:from-green-600 hover:to-green-700 transition-all duration-300 text-sm">
+              App Store
+            </button>
+            <button class="px-4 py-2 border border-green-300/30 text-green-300 font-medium rounded-lg hover:bg-green-500/20 transition-all duration-300 text-sm">
+              Code
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Card 3 -->
+      <div class="group backdrop-blur-sm bg-white/5 border border-white/10 rounded-2xl overflow-hidden hover:bg-white/10 hover:scale-105 transition-all duration-300 hover:shadow-2xl">
+        <div class="relative overflow-hidden h-48 bg-gradient-to-br from-purple-500/20 to-pink-500/20">
+          <div class="w-full h-full flex items-center justify-center">
+            <svg class="w-16 h-16 text-purple-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
+            </svg>
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        </div>
+        
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-white mb-2 group-hover:text-purple-300 transition-colors">
+            IoT Hardware Project
+          </h3>
+          <p class="text-blue-200 text-sm mb-4 leading-relaxed">
+            Raspberry Pi-based IoT solution with sensor integration, data visualization, and remote monitoring capabilities.
+          </p>
+          
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="px-3 py-1 bg-green-500/20 border border-green-300/30 rounded-full text-green-200 text-xs font-medium">Python</span>
+            <span class="px-3 py-1 bg-red-500/20 border border-red-300/30 rounded-full text-red-200 text-xs font-medium">Raspberry Pi</span>
+            <span class="px-3 py-1 bg-yellow-500/20 border border-yellow-300/30 rounded-full text-yellow-200 text-xs font-medium">Linux</span>
+          </div>
+          
+          <div class="flex gap-3">
+            <button class="flex-1 px-4 py-2 bg-gradient-to-r from-purple-500 to-purple-600 text-white font-medium rounded-lg hover:from-purple-600 hover:to-purple-700 transition-all duration-300 text-sm">
+              Demo
+            </button>
+            <button class="px-4 py-2 border border-purple-300/30 text-purple-300 font-medium rounded-lg hover:bg-purple-500/20 transition-all duration-300 text-sm">
+              Code
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Card 4 -->
+      <div class="group backdrop-blur-sm bg-white/5 border border-white/10 rounded-2xl overflow-hidden hover:bg-white/10 hover:scale-105 transition-all duration-300 hover:shadow-2xl">
+        <div class="relative overflow-hidden h-48 bg-gradient-to-br from-orange-500/20 to-red-500/20">
+          <div class="w-full h-full flex items-center justify-center">
+            <svg class="w-16 h-16 text-orange-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"></path>
+            </svg>
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        </div>
+        
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-white mb-2 group-hover:text-orange-300 transition-colors">
+            Cinematch
+          </h3>
+          <p class="text-blue-200 text-sm mb-4 leading-relaxed">
+            Cinematch uses Letterboxd data to suggest films based on user preferences.
+            Simply input your Letterboxd username to get personalized recommendations categorized by services you use.
+          </p>
+          
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="px-3 py-1 bg-green-500/20 border border-green-300/30 rounded-full text-green-200 text-xs font-medium">Python</span>
+            <span class="px-3 py-1 bg-blue-500/20 border border-blue-300/30 rounded-full text-blue-200 text-xs font-medium">Vue.js</span>
+            <span class="px-3 py-1 bg-gray-500/20 border border-gray-300/30 rounded-full text-gray-200 text-xs font-medium">SQL</span>
+          </div>
+          
+          <div class="flex gap-3">
+            <button class="flex-1 px-4 py-2 bg-gradient-to-r from-orange-500 to-orange-600 text-white font-medium rounded-lg hover:from-orange-600 hover:to-orange-700 transition-all duration-300 text-sm">
+              Live Demo
+            </button>
+            <button class="px-4 py-2 border border-orange-300/30 text-orange-300 font-medium rounded-lg hover:bg-orange-500/20 transition-all duration-300 text-sm">
+              Code
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Card 5 -->
+      <div class="group backdrop-blur-sm bg-white/5 border border-white/10 rounded-2xl overflow-hidden hover:bg-white/10 hover:scale-105 transition-all duration-300 hover:shadow-2xl">
+        <div class="relative overflow-hidden h-48 bg-gradient-to-br from-teal-500/20 to-cyan-500/20">
+          <div class="w-full h-full flex items-center justify-center">
+            <svg class="w-16 h-16 text-teal-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z"></path>
+            </svg>
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        </div>
+        
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-white mb-2 group-hover:text-teal-300 transition-colors">
+            API Integration Tool
+          </h3>
+          <p class="text-blue-200 text-sm mb-4 leading-relaxed">
+            Streamlined tool for connecting and managing multiple APIs with automated testing and documentation generation.
+          </p>
+          
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="px-3 py-1 bg-green-500/20 border border-green-300/30 rounded-full text-green-200 text-xs font-medium">Python</span>
+            <span class="px-3 py-1 bg-blue-500/20 border border-blue-300/30 rounded-full text-blue-200 text-xs font-medium">TypeScript</span>
+            <span class="px-3 py-1 bg-purple-500/20 border border-purple-300/30 rounded-full text-purple-200 text-xs font-medium">REST API</span>
+          </div>
+          
+          <div class="flex gap-3">
+            <button class="flex-1 px-4 py-2 bg-gradient-to-r from-teal-500 to-teal-600 text-white font-medium rounded-lg hover:from-teal-600 hover:to-teal-700 transition-all duration-300 text-sm">
+              Try It
+            </button>
+            <button class="px-4 py-2 border border-teal-300/30 text-teal-300 font-medium rounded-lg hover:bg-teal-500/20 transition-all duration-300 text-sm">
+              Code
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Card 6 -->
+      <div class="group backdrop-blur-sm bg-white/5 border border-white/10 rounded-2xl overflow-hidden hover:bg-white/10 hover:scale-105 transition-all duration-300 hover:shadow-2xl">
+        <div class="relative overflow-hidden h-48 bg-gradient-to-br from-red-500/20 to-red-500/20">
+          <div class="w-full h-full flex items-center justify-center">
+            <svg class="w-16 h-16 text-red-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+            </svg>
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        </div>
+        
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-white mb-2 group-hover:text-red-300 transition-colors">
+            Brix
+          </h3>
+          <p class="text-blue-200 text-sm mb-4 leading-relaxed">
+            Brix revolutionizes education by utilizing AI as a tool rather than replacement. Abstract difficult topics, generate complex information maps, track progress, and learn to learn.
+          </p>
+          
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="px-3 py-1 bg-blue-500/20 border border-blue-300/30 rounded-full text-blue-200 text-xs font-medium">Vue.js</span>
+            <span class="px-3 py-1 bg-green-500/20 border border-green-300/30 rounded-full text-green-200 text-xs font-medium">Python</span>
+            <span class="px-3 py-1 bg-gray-500/20 border border-gray-300/30 rounded-full text-gray-200 text-xs font-medium">PostgreSQL</span>
+          </div>
+          
+          <div class="flex gap-3">
+            <button class="flex-1 px-4 py-2 bg-gradient-to-r from-red-500 to-red-600 text-white font-medium rounded-lg hover:from-redo-600 hover:to-red-700 transition-all duration-300 text-sm">
+              Live Demo
+            </button>
+            <button class="px-4 py-2 border border-red-300/30 text-red-300 font-medium rounded-lg hover:bg-red-500/20 transition-all duration-300 text-sm">
+              Code
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
     <div id="contact" class="py-20">
       <!-- Header -->
       <div class="text-center mb-16">
@@ -292,7 +533,7 @@
 
 <script setup>
 import appear from '~/components/appear.vue';
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 
 const languages = [
   'Python', 'JavaScript', 'TypeScript', 'Dart', 'SQL'
