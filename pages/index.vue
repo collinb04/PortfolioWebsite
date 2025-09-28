@@ -245,11 +245,13 @@
           
           <!-- Action Buttons -->
           <div class="flex gap-3">
-            <button id="playButton" class="flex-1 px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-medium rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all duration-300 text-sm">
-              Live Demo
-            </button>
+            <a href="https://edgeforestry.com/#top">
+              <button id="playButton" class="flex-1 px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-medium rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all duration-300 text-sm">
+                Live Demo
+              </button>
+            </a>
             <button class="px-4 py-2 border border-blue-300/30 text-blue-300 font-medium rounded-lg hover:bg-blue-500/20 transition-all duration-300 text-sm">
-              Code
+              Code Owned by Edge Forestry
             </button>
           </div>
         </div>
@@ -259,9 +261,11 @@
       <div class="group backdrop-blur-sm bg-white/5 border border-white/10 rounded-2xl overflow-hidden hover:bg-white/10 hover:scale-105 transition-all duration-300 hover:shadow-2xl">
         <div class="relative overflow-hidden h-48 bg-gradient-to-br from-green-500/20 to-blue-500/20">
           <div class="w-full h-full flex items-center justify-center">
-            <svg class="w-16 h-16 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
-            </svg>
+             <img 
+                src="/raspi.png" 
+                alt="screenshot of raspberry pi app" 
+                class="w-100 h-90 object-full rounded-2xl transition-all duration-300 border border-white/10" 
+              />
           </div>
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>
@@ -280,53 +284,14 @@
             <span class="px-3 py-1 bg-green-500/20 border border-green-300/30 rounded-full text-green-200 text-xs font-medium">Python</span>
           </div>
           
-          <div class="flex gap-3">
-            <button class="flex-1 px-4 py-2 bg-gradient-to-r from-green-500 to-green-600 text-white font-medium rounded-lg hover:from-green-600 hover:to-green-700 transition-all duration-300 text-sm">
-              App Store
-            </button>
-            <button class="px-4 py-2 border border-green-300/30 text-green-300 font-medium rounded-lg hover:bg-green-500/20 transition-all duration-300 text-sm">
-              Code
+          <div class="flex justify-center">
+            <button class="px-4 py-2 border border-green-300/30 text-green-300 font-medium rounded-lg hover:bg-green-500/20 transition-all duration-300 text-sm mt-5">
+              Code Owned by Edge Forestry
             </button>
           </div>
         </div>
       </div>
-
-      <!-- Project Card 3 -->
-      <div class="group backdrop-blur-sm bg-white/5 border border-white/10 rounded-2xl overflow-hidden hover:bg-white/10 hover:scale-105 transition-all duration-300 hover:shadow-2xl">
-        <div class="relative overflow-hidden h-48 bg-gradient-to-br from-purple-500/20 to-pink-500/20">
-          <div class="w-full h-full flex items-center justify-center">
-            <svg class="w-16 h-16 text-purple-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
-            </svg>
-          </div>
-          <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-        </div>
-        
-        <div class="p-6">
-          <h3 class="text-xl font-bold text-white mb-2 group-hover:text-purple-300 transition-colors">
-            IoT Hardware Project
-          </h3>
-          <p class="text-blue-200 text-sm mb-4 leading-relaxed">
-            Raspberry Pi-based IoT solution with sensor integration, data visualization, and remote monitoring capabilities.
-          </p>
-          
-          <div class="flex flex-wrap gap-2 mb-4">
-            <span class="px-3 py-1 bg-green-500/20 border border-green-300/30 rounded-full text-green-200 text-xs font-medium">Python</span>
-            <span class="px-3 py-1 bg-red-500/20 border border-red-300/30 rounded-full text-red-200 text-xs font-medium">Raspberry Pi</span>
-            <span class="px-3 py-1 bg-yellow-500/20 border border-yellow-300/30 rounded-full text-yellow-200 text-xs font-medium">Linux</span>
-          </div>
-          
-          <div class="flex gap-3">
-            <button class="flex-1 px-4 py-2 bg-gradient-to-r from-purple-500 to-purple-600 text-white font-medium rounded-lg hover:from-purple-600 hover:to-purple-700 transition-all duration-300 text-sm">
-              Demo
-            </button>
-            <button class="px-4 py-2 border border-purple-300/30 text-purple-300 font-medium rounded-lg hover:bg-purple-500/20 transition-all duration-300 text-sm">
-              Code
-            </button>
-          </div>
-        </div>
-      </div>
-
+    
       <!-- Project Card 4 -->
       <div class="group backdrop-blur-sm bg-white/5 border border-white/10 rounded-2xl overflow-hidden hover:bg-white/10 hover:scale-105 transition-all duration-300 hover:shadow-2xl">
         <div class="relative overflow-hidden h-48 bg-gradient-to-br from-orange-500/20 to-red-500/20">
@@ -353,7 +318,7 @@
             <span class="px-3 py-1 bg-gray-500/20 border border-gray-300/30 rounded-full text-gray-200 text-xs font-medium">SQL</span>
           </div>
           
-          <div class="flex gap-3">
+          <div class="flex gap-3 mt-9">
             <button class="flex-1 px-4 py-2 bg-gradient-to-r from-orange-500 to-orange-600 text-white font-medium rounded-lg hover:from-orange-600 hover:to-orange-700 transition-all duration-300 text-sm">
               Live Demo
             </button>
@@ -377,10 +342,10 @@
         
         <div class="p-6">
           <h3 class="text-xl font-bold text-white mb-2 group-hover:text-teal-300 transition-colors">
-            API Integration Tool
+            Your Take
           </h3>
           <p class="text-blue-200 text-sm mb-4 leading-relaxed">
-            Streamlined tool for connecting and managing multiple APIs with automated testing and documentation generation.
+            Streamlined college football simulator AI model, allowing users to predict game outcomes using preferential weights for various statistics.
           </p>
           
           <div class="flex flex-wrap gap-2 mb-4">
@@ -425,12 +390,9 @@
             <span class="px-3 py-1 bg-gray-500/20 border border-gray-300/30 rounded-full text-gray-200 text-xs font-medium">PostgreSQL</span>
           </div>
           
-          <div class="flex gap-3">
-            <button class="flex-1 px-4 py-2 bg-gradient-to-r from-red-500 to-red-600 text-white font-medium rounded-lg hover:from-redo-600 hover:to-red-700 transition-all duration-300 text-sm">
-              Live Demo
-            </button>
-            <button class="px-4 py-2 border border-red-300/30 text-red-300 font-medium rounded-lg hover:bg-red-500/20 transition-all duration-300 text-sm">
-              Code
+          <div class="flex justify-center">
+            <button class="px-4 py-2 border border-red-300/30 text-red-300 font-medium rounded-lg hover:bg-red-500/20 transition-all duration-300 text-sm mt-5">
+              In Developement
             </button>
           </div>
         </div>
